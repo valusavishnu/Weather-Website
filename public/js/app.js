@@ -23,8 +23,8 @@ weatherform.addEventListener("submit",(e)=>{
             if(data.error){
                 msg1.textContent="Error"
             }else{
-            msg2.textContent="Location: "+data.location+"\nLatitude: "+data.latitude+"\nLongitude: "+data.longitude
-            }
+            msg2.textContent="Location: "+data.location+"\nLatitude: "+data.latitude+"\nLongitude: "+data.longitude+"\nCode:"+data.code
+        }
         })
     })    
 })
